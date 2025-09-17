@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35728.132 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLC-AS-CreateViews", "SLC-AS-CreateViews\SLC-AS-CreateViews.csproj", "{044A1F83-4FA6-4C39-B672-3F9FB7C587D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{279A65E6-C1A6-48E8-B244-25E753CF74C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analysis", "{5C832ED7-28B4-457B-9504-0E232525BB7B}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\Code Analysis\qaction-debug.ruleset = Internal\Code Analysis\qaction-debug.ruleset
+		Internal\Code Analysis\qaction-release.ruleset = Internal\Code Analysis\qaction-release.ruleset
+		Internal\Code Analysis\stylecop.json = Internal\Code Analysis\stylecop.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{044A1F83-4FA6-4C39-B672-3F9FB7C587D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{044A1F83-4FA6-4C39-B672-3F9FB7C587D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{044A1F83-4FA6-4C39-B672-3F9FB7C587D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{044A1F83-4FA6-4C39-B672-3F9FB7C587D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5C832ED7-28B4-457B-9504-0E232525BB7B} = {279A65E6-C1A6-48E8-B244-25E753CF74C4}
+	EndGlobalSection
+EndGlobal
